@@ -1,0 +1,5 @@
+[project]
+name = "elosam"
+version = "0.1.0-alpha"
+description = "Projeto EloSam"
+requires-python = ">=3.12"
