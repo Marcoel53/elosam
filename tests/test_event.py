@@ -1,4 +1,4 @@
-﻿from elosam.core.event import Event
+from elosam.core.event import Event
 
 
 def test_event_name() -> None:

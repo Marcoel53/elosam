@@ -1,4 +1,4 @@
-﻿from elosam.core.health_manager import HealthManager
+from elosam.core.health_manager import HealthManager
 from elosam.core.health_status import HealthStatus
 from elosam.core.service_registry import ServiceRegistry
 from elosam.services.base_service import BaseService

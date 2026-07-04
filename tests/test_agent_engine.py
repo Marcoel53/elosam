@@ -1,4 +1,4 @@
-﻿from elosam.core.event_bus import EventBus
+from elosam.core.event_bus import EventBus
 from elosam.core.mission_engine import MissionEngine
 from elosam.core.agent_engine import AgentEngine
 

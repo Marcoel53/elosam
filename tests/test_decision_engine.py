@@ -1,4 +1,4 @@
-﻿from elosam.core.decision_engine import DecisionEngine, DecisionContext
+from elosam.core.decision_engine import DecisionEngine, DecisionContext
 
 
 def test_empty_context_rejects() -> None:

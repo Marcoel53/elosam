@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS CORE Audit System.
 Tracks decisions and system behavior.
 """

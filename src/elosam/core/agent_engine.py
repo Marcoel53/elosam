@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS AGENT ENGINE.
 Autonomous execution layer over missions.
 """

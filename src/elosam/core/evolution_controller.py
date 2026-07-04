@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS SELF EVOLUTION CONTROLLER.
 Controls safe continuous evolution cycles.
 """

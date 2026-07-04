@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS CORE Evidence System.
 """
 

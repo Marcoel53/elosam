@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS EVOLUTION DECISION ENGINE.
 Final selector of system evolution paths.
 """

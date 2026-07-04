@@ -1,4 +1,4 @@
-﻿from elosam.application import EloSamApplication
+from elosam.application import EloSamApplication
 from elosam.lifecycle import LifecycleState
 
 

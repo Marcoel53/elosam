@@ -1,4 +1,4 @@
-﻿from elosam.core.capability_engine import CapabilityEngine
+from elosam.core.capability_engine import CapabilityEngine
 from elosam.core.capability_registry import CapabilityRegistry
 from elosam.core.event_bus import EventBus
 from elosam.core.kernel import Kernel

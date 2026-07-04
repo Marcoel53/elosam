@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS PATCH SIMULATION ENGINE.
 Simulates code modifications safely before application.
 """

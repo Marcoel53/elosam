@@ -1,4 +1,4 @@
-﻿from elosam.core.event_bus import EventBus
+from elosam.core.event_bus import EventBus
 from elosam.core.kernel import Kernel
 from elosam.core.service_registry import ServiceRegistry
 

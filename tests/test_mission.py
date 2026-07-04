@@ -1,4 +1,4 @@
-﻿from elosam.mission import Mission
+from elosam.mission import Mission
 from elosam.enums import MissionStatus
 
 

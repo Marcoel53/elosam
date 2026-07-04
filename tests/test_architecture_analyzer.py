@@ -1,4 +1,4 @@
-﻿from elosam.core.architecture_analyzer import ArchitectureAnalyzer
+from elosam.core.architecture_analyzer import ArchitectureAnalyzer
 
 
 def test_architecture_analyzer_detects_missing_layers():

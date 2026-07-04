@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS MISSION ORCHESTRATOR.
 Connects all EloSam subsystems.
 """

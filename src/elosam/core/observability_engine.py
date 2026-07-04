@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS OBSERVABILITY ENGINE.
 Full system tracing and execution visibility.
 """

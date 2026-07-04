@@ -1,4 +1,4 @@
-﻿from elosam.core.agent_registry import AgentRegistry, Agent
+from elosam.core.agent_registry import AgentRegistry, Agent
 
 
 def test_agent_routing():

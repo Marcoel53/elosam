@@ -1,4 +1,4 @@
-﻿from elosam.core.patch_generator import Patch
+from elosam.core.patch_generator import Patch
 from elosam.core.simulation_engine import SimulationEngine
 
 

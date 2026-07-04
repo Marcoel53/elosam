@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS KNOWLEDGE ENGINE.
 Persistent memory for decisions and patterns.
 """

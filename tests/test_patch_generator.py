@@ -1,4 +1,4 @@
-﻿from elosam.core.architecture_analyzer import ArchitectureAnalyzer
+from elosam.core.architecture_analyzer import ArchitectureAnalyzer
 from elosam.core.patch_generator import PatchGenerator
 
 

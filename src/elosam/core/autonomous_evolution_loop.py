@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS AUTONOMOUS EVOLUTION LOOP ENGINE.
 Full self-modifying system with Git integration.
 """

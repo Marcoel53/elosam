@@ -1,4 +1,4 @@
-﻿import json
+import json
 from pathlib import Path
 
 from elosam.core.configuration_manager import ConfigurationManager

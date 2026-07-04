@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS PRODUCTION AUTONOMOUS MODE.
 Continuous safe runtime orchestration system.
 """

@@ -1,4 +1,4 @@
-﻿from elosam.core.capability_registry import CapabilityRegistry
+from elosam.core.capability_registry import CapabilityRegistry
 from elosam.services.base_capability import BaseCapability
 
 

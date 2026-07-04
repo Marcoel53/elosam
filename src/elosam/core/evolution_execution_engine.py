@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS EVOLUTION EXECUTION ENGINE.
 Applies selected evolution plans in controlled mode.
 """

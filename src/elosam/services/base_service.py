@@ -1,4 +1,4 @@
-﻿"""
+"""
 Base implementation for EloSam services.
 """
 

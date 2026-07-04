@@ -1,4 +1,4 @@
-﻿from elosam.core.autonomous_os import AutonomousOS
+from elosam.core.autonomous_os import AutonomousOS
 from elosam.core.production_runtime import ProductionAutonomousRuntime
 from elosam.core.event_bus import EventBus
 from elosam.core.agent_registry import AgentRegistry

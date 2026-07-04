@@ -1,4 +1,4 @@
-﻿from elosam.core.event import Event
+from elosam.core.event import Event
 from elosam.core.kernel import Kernel
 from elosam.services.base_service import BaseService
 

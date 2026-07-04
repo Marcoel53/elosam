@@ -1,4 +1,4 @@
-﻿from elosam.core.healing_loop_engine import HealingLoopEngine
+from elosam.core.healing_loop_engine import HealingLoopEngine
 
 
 def test_healing_loop_runs():

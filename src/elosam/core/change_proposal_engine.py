@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS CHANGE PROPOSAL ENGINE.
 Generates structured code modification proposals (SAFE MODE).
 """

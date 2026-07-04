@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS META AGENT ENGINE.
 Now capable of generating new agents automatically.
 """
@@ -42,17 +42,17 @@ class MetaAgentEngine:
 
         new_agents: list[Agent] = []
 
-        # If too many weak agents → create analyzer agent
+        # If too many weak agents ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ create analyzer agent
         weak_count = sum(1 for a in self._agents if a.score < 1.0)
 
         if weak_count > 1:
             new_agents.append(Agent("auto_analyzer", "analyze", score=1.0))
 
-        # If no executor agents → create one
+        # If no executor agents ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ create one
         if not any(a.capability == "run" for a in self._agents):
             new_agents.append(Agent("auto_executor", "run", score=1.0))
 
-        # If system too small → bootstrap general agent
+        # If system too small ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ bootstrap general agent
         if len(self._agents) < 2:
             new_agents.append(Agent("auto_generalist", "general", score=1.0))
 

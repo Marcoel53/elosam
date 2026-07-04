@@ -1,4 +1,4 @@
-﻿"""
+"""
 Service contract for the AEGIS CORE.
 """
 

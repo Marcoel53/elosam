@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS AUTONOMOUS RUNTIME LOOP.
 Continuously executes system intelligence cycle.
 """

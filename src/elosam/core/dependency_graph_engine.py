@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS DEPENDENCY GRAPH ENGINE.
 Builds structural map of system architecture.
 """
@@ -63,3 +63,5 @@ class DependencyGraphEngine:
             "total_modules": len(modules),
             "graph": graph,
         }
+
+# FORCE CHANGE 780530875

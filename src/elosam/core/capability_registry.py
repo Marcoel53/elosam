@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS CORE Capability Registry.
 """
 

@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS AUTONOMOUS OPERATING CORE.
 Unifies event-driven + autonomous runtime execution.
 """
@@ -40,7 +40,7 @@ class AutonomousOS:
 
     def _bind_events(self) -> None:
         """
-        Connect external world → internal system.
+        Connect external world ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ internal system.
         """
 
         self.bus.subscribe("system.task", self._on_task)

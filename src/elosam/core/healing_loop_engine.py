@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS SELF HEALING LOOP ENGINE.
 Closed-cycle safe auto-repair system.
 """
@@ -29,7 +29,7 @@ class HealingLoopEngine:
     def run_cycle(self, fake_runtime_trace: list[dict], iterations: int = 1) -> dict[str, Any]:
         """
         Full healing cycle:
-        trace → diagnose → heal → simulate → decide
+        trace ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ diagnose ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ heal ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ simulate ÃƒÂ¢Ã¢â‚¬Â Ã¢â‚¬â„¢ decide
         """
 
         # 1. feed observability

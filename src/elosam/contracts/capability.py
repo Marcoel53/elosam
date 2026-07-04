@@ -1,4 +1,4 @@
-﻿"""
+"""
 Capability contract for the AEGIS CORE.
 """
 

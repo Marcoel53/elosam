@@ -1,4 +1,4 @@
-﻿from elosam.core.boot_manager import BootManager
+from elosam.core.boot_manager import BootManager
 from elosam.core.lifecycle import Lifecycle
 from elosam.core.lifecycle_state import LifecycleState
 from elosam.core.service_registry import ServiceRegistry

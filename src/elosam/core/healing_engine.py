@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS SELF HEALING ENGINE.
 Transforms diagnostics into repair suggestions.
 """

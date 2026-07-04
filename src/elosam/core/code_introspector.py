@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS CODE INTROSPECTOR.
 Analyzes system structure for self-modification planning.
 """

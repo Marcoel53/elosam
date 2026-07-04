@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS SELF REWRITING PATCH GENERATOR.
 Produces safe architectural improvement patches.
 """

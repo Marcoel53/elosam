@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS AUTONOMOUS SAFE APPLY ENGINE.
 Applies real code mutations with rollback safety.
 """

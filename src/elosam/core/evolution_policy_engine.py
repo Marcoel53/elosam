@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS EVOLUTION POLICY ENGINE.
 Defines rules for safe system evolution.
 """

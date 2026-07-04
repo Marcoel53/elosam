@@ -1,4 +1,4 @@
-﻿from elosam.core.diagnostic_engine import DiagnosticEngine
+from elosam.core.diagnostic_engine import DiagnosticEngine
 from elosam.core.observability_engine import ObservabilityEngine
 from elosam.core.healing_engine import HealingEngine
 

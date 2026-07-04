@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS POLICY ENGINE.
 Governance layer over decisions.
 """

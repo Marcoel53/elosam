@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS MISSION ENGINE.
 Persistent goal execution system.
 """
@@ -65,3 +65,5 @@ class MissionEngine:
 
     def all(self) -> list[Mission]:
         return list(self._missions.values())
+
+# MUTATION TEST 802705060

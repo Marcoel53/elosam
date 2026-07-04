@@ -1,4 +1,4 @@
-﻿from elosam.core.lifecycle import Lifecycle
+from elosam.core.lifecycle import Lifecycle
 from elosam.core.lifecycle_state import LifecycleState
 
 

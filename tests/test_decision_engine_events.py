@@ -1,4 +1,4 @@
-﻿from elosam.core.decision_engine import DecisionEngine
+from elosam.core.decision_engine import DecisionEngine
 from elosam.core.event_bus import EventBus
 
 

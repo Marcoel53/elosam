@@ -1,4 +1,4 @@
-﻿from elosam.core.event import Event
+from elosam.core.event import Event
 from elosam.core.event_bus import EventBus
 
 

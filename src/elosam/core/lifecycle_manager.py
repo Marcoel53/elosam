@@ -1,4 +1,4 @@
-﻿"""
+"""
 LifecycleManager - central authority for lifecycle transitions.
 """
 

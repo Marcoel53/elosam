@@ -1,4 +1,4 @@
-﻿"""
+"""
 BootManager - responsible for bootstrapping the AEGIS Runtime.
 """
 

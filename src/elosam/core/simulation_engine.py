@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS SELF-MODIFICATION SIMULATION ENGINE.
 Simulates patch impact before applying changes.
 """

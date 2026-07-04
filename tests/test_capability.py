@@ -1,4 +1,4 @@
-﻿from elosam.services.base_capability import BaseCapability
+from elosam.services.base_capability import BaseCapability
 
 
 class DummyCapability(BaseCapability):

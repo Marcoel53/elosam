@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS SELF DEBUGGING ENGINE.
 Analyzes system traces and detects anomalies.
 """

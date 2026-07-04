@@ -1,4 +1,4 @@
-﻿from .mission import Mission
+from .mission import Mission
 from .enums import MissionStatus
 
 

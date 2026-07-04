@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS GOVERNED EVOLUTION ORCHESTRATOR.
 Central brain for system evolution decisions.
 """

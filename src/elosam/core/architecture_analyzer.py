@@ -1,4 +1,4 @@
-﻿"""
+"""
 AEGIS ARCHITECTURE ANALYZER.
 Detects structural improvement opportunities.
 """

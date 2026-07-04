@@ -1,4 +1,4 @@
-﻿from elosam.core.agent import Agent
+from elosam.core.agent import Agent
 from elosam.core.agent_arbitration import ArbitrationEngine
 
 
