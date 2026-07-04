@@ -25,9 +25,34 @@ class DependencyGraphEngine:
     def __init__(self, root: str = "src") -> None:
         self.root = root
 
+    def _safe_read(self, path: str) -> str:
+        """
+        Leitura blindada contra BOM, encoding quebrado e caracteres invisíveis.
+        """
+        with open(path, "rb") as f:
+            raw = f.read()
+
+        # remove BOM UTF-8
+        if raw.startswith(b"\xef\xbb\xbf"):
+            raw = raw[3:]
+
+        # decode seguro
+        text = raw.decode("utf-8", errors="ignore")
+
+        # remove BOM unicode residual
+        return text.lstrip("\ufeff")
+
     def _parse_file(self, path: str) -> ModuleNode:
-        with open(path, "r", encoding="utf-8") as f:
-            tree = ast.parse(f.read(), filename=path)
+        content = self._safe_read(path)
+
+        try:
+            tree = ast.parse(content, filename=path)
+        except SyntaxError:
+            # fallback ultra resiliente (não quebra o sistema inteiro)
+            return ModuleNode(
+                name=path.replace(os.sep, "."),
+                imports=[]
+            )
 
         imports: list[str] = []
 
@@ -36,7 +61,7 @@ class DependencyGraphEngine:
                 for n in node.names:
                     imports.append(n.name)
 
-            if isinstance(node, ast.ImportFrom):
+            elif isinstance(node, ast.ImportFrom):
                 if node.module:
                     imports.append(node.module)
 
@@ -54,14 +79,9 @@ class DependencyGraphEngine:
                     path = os.path.join(base, f)
                     modules.append(self._parse_file(path))
 
-        graph = {
-            m.name: m.imports
-            for m in modules
-        }
+        graph = {m.name: m.imports for m in modules}
 
         return {
             "total_modules": len(modules),
             "graph": graph,
         }
-
-# FORCE CHANGE 780530875

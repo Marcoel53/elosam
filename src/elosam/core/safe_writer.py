@@ -1,11 +1,17 @@
-class SafeWriter:
+from pathlib import Path
+
+class SafePythonWriter:
     @staticmethod
-    def write(path, content):
-        import os
+    def write(path: str, content: str):
+        p = Path(path)
 
-        # for?a UTF-8 puro
+        # força UTF-8 limpo SEM BOM
         if content.startswith("\ufeff"):
-            content = content.encode("utf-8-sig").decode("utf-8")
+            content = content.lstrip("\ufeff")
 
-        with open(path, "wb") as f:
-            f.write(content.encode("utf-8"))
+        # garante newline padrão
+        p.write_text(content, encoding="utf-8", newline="\n")
+
+    @staticmethod
+    def write_file(path: str, content: str):
+        SafePythonWriter.write(path, content)
