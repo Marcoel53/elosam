@@ -34,8 +34,24 @@ class Memory:
     ) -> bool:
         return key in self._data
 
+    def delete(
+        self,
+        key: str,
+    ) -> None:
+        self._data.pop(
+            key,
+            None,
+        )
+
+    def keys(self) -> list[str]:
+        return sorted(
+            self._data.keys(),
+        )
+
     def clear(self) -> None:
         self._data.clear()
 
     def size(self) -> int:
-        return len(self._data)
+        return len(
+            self._data,
+        )
