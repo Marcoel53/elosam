@@ -4,12 +4,16 @@ import json
 from pathlib import Path
 
 from .models import BuildSpecification
+from .validator import Validator
 
 
 class SpecLoader:
     """
-    Loads build specifications.
+    Loads and validates build specifications.
     """
+
+    def __init__(self) -> None:
+        self.validator = Validator()
 
     def load(
         self,
@@ -22,7 +26,7 @@ class SpecLoader:
             )
         )
 
-        return BuildSpecification(
+        specification = BuildSpecification(
             kind=data["kind"],
             name=data["name"],
             models=data.get("models", False),
@@ -31,3 +35,7 @@ class SpecLoader:
             tests=data.get("tests", False),
             readme=data.get("readme", False),
         )
+
+        self.validator.validate(specification)
+
+        return specification

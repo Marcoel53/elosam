@@ -47,7 +47,7 @@ class BuilderCLI:
     ) -> None:
         spec = self.loader.load(specification)
 
-        created = self.compiler.compile(spec)
+        report = self.compiler.compile(spec)
 
         print()
         print("=" * 50)
@@ -57,11 +57,11 @@ class BuilderCLI:
         print(f"Name : {spec.name}")
         print()
 
-        for file in created:
+        for file in report.generated:
             print(f"[OK] {file}")
 
         print()
-        print(f"Generated files : {len(created)}")
+        print(f"Generated files : {report.total_files}")
         print("=" * 50)
 
 
