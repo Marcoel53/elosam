@@ -1,25 +1,46 @@
 """
-Main application class for EloSam.
+EloSam Application
 """
 
-from .lifecycle import LifecycleState
+from __future__ import annotations
+
+from typing import Any
+
+from elosam.core.engineering_runtime import EngineeringRuntime
+from elosam.lifecycle import LifecycleState
 
 
 class EloSamApplication:
-    """Represents the EloSam application."""
+    """
+    Public entry point for the EloSam platform.
+    """
 
     def __init__(self) -> None:
-        self._state = LifecycleState.CREATED
+        self._runtime = EngineeringRuntime()
+        self.state = LifecycleState.CREATED
 
     @property
-    def state(self) -> LifecycleState:
-        return self._state
+    def runtime(self) -> EngineeringRuntime:
+        return self._runtime
 
     def start(self) -> None:
-        self._state = LifecycleState.BOOTSTRAPPING
-        self._state = LifecycleState.INITIALIZING
-        self._state = LifecycleState.READY
+        """
+        Starts the application.
+        """
+        self.state = LifecycleState.READY
 
-    def stop(self) -> None:
-        self._state = LifecycleState.STOPPING
-        self._state = LifecycleState.STOPPED
+    def execute(
+        self,
+        mission_id: str,
+        name: str,
+        payload: dict[str, Any],
+    ):
+        return self._runtime.execute(
+            mission_id=mission_id,
+            name=name,
+            payload=payload,
+        )
+
+
+# Backward compatibility
+EloSam = EloSamApplication

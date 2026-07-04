@@ -1,0 +1,9 @@
+{
+    "kind": "capability",
+    "name": "vision",
+    "models": true,
+    "contracts": true,
+    "exceptions": true,
+    "tests": true,
+    "readme": true
+}
