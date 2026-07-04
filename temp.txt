@@ -1,0 +1,10 @@
+﻿def bind(self, events: EventBus) -> None:
+    self._events = events
+
+    def handler(event: Any) -> None:
+        payload = event.payload if hasattr(event, "payload") else event
+
+        if isinstance(payload, dict):
+            self.evaluate(DecisionContext(payload))
+
+    events.subscribe("decision.requested", handler)
