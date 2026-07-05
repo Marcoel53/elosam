@@ -13,15 +13,18 @@ class MemoryContract(Protocol):
         self,
         key: str,
         value: Any,
-    ) -> None: ...
+    ) -> None:
+        ...
 
     def get(
         self,
         key: str,
         default: Any = None,
-    ) -> Any: ...
+    ) -> Any:
+        ...
 
     def exists(
         self,
         key: str,
-    ) -> bool: ...
+    ) -> bool:
+        ...
