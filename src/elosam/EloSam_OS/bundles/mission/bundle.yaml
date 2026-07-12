@@ -1,0 +1,5 @@
+name: mission
+version: 1.0.0
+provides:
+  - name: mission.define
+  - name: mission.start

@@ -1,0 +1,4 @@
+name: brother_marketing
+version: 1.0.0
+provides:
+  - name: marketing.plan

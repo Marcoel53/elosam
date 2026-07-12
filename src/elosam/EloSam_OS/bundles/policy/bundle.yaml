@@ -1,0 +1,4 @@
+name: policy
+version: 1.0.0
+provides:
+  - name: policy.evaluate

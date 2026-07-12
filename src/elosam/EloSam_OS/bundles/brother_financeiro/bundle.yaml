@@ -1,0 +1,4 @@
+name: brother_financeiro
+version: 1.0.0
+provides:
+  - name: financeiro.plan

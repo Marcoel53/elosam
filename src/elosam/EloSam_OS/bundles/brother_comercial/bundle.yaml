@@ -1,0 +1,4 @@
+name: brother_comercial
+version: 1.0.0
+provides:
+  - name: comercial.plan

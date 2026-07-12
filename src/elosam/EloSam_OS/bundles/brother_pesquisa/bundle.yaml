@@ -1,0 +1,4 @@
+name: brother_pesquisa
+version: 1.0.0
+provides:
+  - name: pesquisa.plan

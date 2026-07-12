@@ -1,0 +1,4 @@
+name: brother_engenharia
+version: 1.0.0
+provides:
+  - name: engenharia.plan

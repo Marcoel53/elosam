@@ -1,0 +1,4 @@
+name: approval
+version: 1.0.0
+provides:
+  - name: approval.request

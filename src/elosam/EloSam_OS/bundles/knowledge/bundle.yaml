@@ -1,0 +1,5 @@
+name: knowledge
+version: 2.0.0
+provides:
+  - name: knowledge.store
+  - name: knowledge.retrieve

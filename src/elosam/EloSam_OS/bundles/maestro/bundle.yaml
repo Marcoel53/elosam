@@ -1,0 +1,4 @@
+name: maestro
+version: 2.0.0
+provides:
+  - name: maestro.plan
